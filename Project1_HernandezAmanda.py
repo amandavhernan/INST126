@@ -1,6 +1,6 @@
 import math 
 
-# this program makes a calculator that can add, subtract, multiply, divide, take the square root of any number, and raise a number to the power of 2.
+# this program makes a calculator that can add, subtract, multiply, divide, take the square root of any number, raise a number to the power of 2 or 3, and take the natural log of any number.
 
 check = True
 while(check != False): 
@@ -13,7 +13,7 @@ while(check != False):
     print("5. Square Root")
     print("6. Raise to the Power of 2")
     print("7. Raise to the Power of 3")
-    print("8. Take the natural logarithm of a number")
+    print("8. Take the natural logarithm")
 
     operation = input()
 
