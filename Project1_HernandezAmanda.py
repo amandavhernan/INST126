@@ -5,13 +5,15 @@ import math
 check = True
 while(check != False): 
 
-    print("Select an operation to perform (1-6): ")
+    print("Select an operation to perform (1-8): ")
     print("1. Add")
     print("2. Subtract")
     print("3. Multiply")
     print("4. Divide")
     print("5. Square Root")
-    print("6. Raise to Power of 2")
+    print("6. Raise to the Power of 2")
+    print("7. Raise to the Power of 3")
+    print("8. Take the natural logarithm of a number")
 
     operation = input()
 
@@ -48,9 +50,19 @@ while(check != False):
     # perform raise to the power of 2
         num = int(input("Enter number: "))
         print("The result is " + str(pow(num, 2)))
+        
+    elif operation == "7": 
+    # perform raise to the power of 3
+        num = int(input("Enter number: "))
+        print("The result is " + str(pow(num, 3)))
+        
+    elif operation == "8": 
+    # perform to take the natural log of a number
+        num = int(input("Enter number: "))
+        print("The result is " + str(math.log(num)))
     
     elif operation == "quit": 
         check = False
 
     else:
-        print("Invalid Entry. Please enter a value between 1-6 to choose an operation.")
+        print("Invalid Entry. Please enter a value between 1-8 to choose an operation.")
