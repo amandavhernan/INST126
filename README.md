@@ -5,4 +5,4 @@ I decided to take it a bit further and added more functionality to my calculator
 ## How it works
 When the user runs the program, it will ask the user to choose an operation by using the menu provided. Make sure to enter the numerical label given to each operation. 
 For example, if the user wants to choose "Add", they must enter "1". If the user wanted "Square Root, they must enter "5" and so on. If the user does not enter a valid number/operation (1-8), the program will not run and the user will see an error. 
-The error prompts the user to try again by entering a number between 1 to 8. If the user wants to stop the program, they must enter "quit" when prompted for an operation. 
+The error prompts the user to try again by entering a number between 1 through 8. If the user wants to stop the program, they must enter "quit" when prompted for an operation. 
