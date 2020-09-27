@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 import math 
 
 # this program makes a calculator that can add, subtract, multiply, divide, take the square root of any number, and raise a number to the power of 2.
@@ -60,16 +54,3 @@ while(check != False):
 
     else:
         print("Invalid Entry. Please enter a value between 1-6 to choose an operation.")
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
